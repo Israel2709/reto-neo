@@ -1,0 +1,9 @@
+@import '../../assets/colors.scss';
+@import '../../assets/utils.scss';
+
+.btn-default{
+    background-color:$teal;
+    color: white;
+    margin-left: auto;
+    display: block;
+}

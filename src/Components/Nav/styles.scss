@@ -1,0 +1,15 @@
+@import '../../assets/colors.scss';
+@import '../../assets/utils.scss';
+
+.list-group{
+    .list-group-item{
+        border-color:$blue;
+        a{
+            text-decoration: none;
+            color:$blue;
+            &:hover{
+                color:$pink;
+            }
+        }
+    }
+}

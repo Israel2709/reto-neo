@@ -1,0 +1,15 @@
+@import './colors.scss';
+
+$font-colors : (
+    "blue":$blue,
+    "dark-blue":$dark-blue,
+    "teal":$teal,
+    "pink":$pink,
+    "orange":$orange
+);
+
+@each $color, $value in $font-colors {
+    .text-#{$color}{
+        color:$value;
+    }
+}

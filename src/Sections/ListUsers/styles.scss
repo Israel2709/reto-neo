@@ -1,0 +1,23 @@
+@import '../../assets/colors.scss';
+@import '../../assets/utils.scss';
+
+.user-details{
+    .control-icon{
+        color:$blue;
+        transition: color .5s ease;
+        cursor:pointer;
+        &:hover{
+            color:$pink
+        }
+    }
+    input{
+        color:$dark-blue;
+        border: none;
+        border-bottom:1px solid $pink;
+        &:disabled{
+            background:none;
+            border: none;
+        }
+    }
+}
+

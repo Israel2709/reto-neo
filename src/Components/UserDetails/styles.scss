@@ -1,0 +1,17 @@
+@import '../../assets/colors.scss';
+@import '../../assets/utils.scss';
+
+.user-details{
+    .controls{
+        cursor:pointer;
+        &:hover{
+            *{
+                color:$pink
+            }
+        }
+    }
+    .btn-default{
+        background-color:$teal;
+        color:white;
+    }
+}
